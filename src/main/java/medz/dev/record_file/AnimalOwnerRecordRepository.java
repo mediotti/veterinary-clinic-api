@@ -1,4 +1,4 @@
-package record_file;
+package medz.dev.record_file;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

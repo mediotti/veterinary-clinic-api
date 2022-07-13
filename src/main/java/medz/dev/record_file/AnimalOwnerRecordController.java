@@ -1,4 +1,4 @@
-package record_file;
+package medz.dev.record_file;
 
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
@@ -46,7 +46,7 @@ public class AnimalOwnerRecordController {
                     animalOwnerRecord.setLastName(newAnimalOwnerRecord.getLastName());
                     animalOwnerRecord.setPetName(newAnimalOwnerRecord.getPetName());
                     animalOwnerRecord.setPhoneNumber(newAnimalOwnerRecord.getPhoneNumber());
-                    return repository.save(newAnimalOwnerRecord);
+                    return repository.save(animalOwnerRecord);
                 })
                 .orElseGet(() -> {
                     newAnimalOwnerRecord.setId(id);
