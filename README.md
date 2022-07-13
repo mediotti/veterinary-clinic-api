@@ -102,6 +102,6 @@ Built with:
   - This will update a record field.
     - OBS: You're only able to update the whole record, to not lost the previous data, fill all the fields when updating it.
     - ```json
-        curl -v -X PUT localhost:8080/owners/3 -H 'Content-Type:application/json' -d '{"firstName": "INSERT_FIRST_NAME", "lastName": "INSERT_LAST_NAME", "phoneNumber": "INSERT_PHONE_NUMBER", "petName": "INSERT_PET_NAME"}'
+        curl -v -X PUT localhost:8080/owners -H 'Content-Type:application/json' -d '{"firstName": "INSERT_FIRST_NAME", "lastName": "INSERT_LAST_NAME", "phoneNumber": "INSERT_PHONE_NUMBER", "petName": "INSERT_PET_NAME"}'
       ```
     - This follows the same POST [JSON syntax](#json-syntax).
