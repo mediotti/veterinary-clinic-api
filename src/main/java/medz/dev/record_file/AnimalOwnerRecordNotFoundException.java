@@ -1,4 +1,4 @@
-package record_file;
+package medz.dev.record_file;
 
 public class AnimalOwnerRecordNotFoundException extends RuntimeException {
     public AnimalOwnerRecordNotFoundException(Long id){
